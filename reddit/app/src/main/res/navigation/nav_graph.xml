@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.reddit.presentation.LoginFragment"
+        android:label="Login" >
+    </fragment>
+    <fragment
+        android:id="@+id/subredditsFragment"
+        android:name="com.example.reddit.presentation.SubredditsFragment"
+        android:label="fragment_subreddits"
+        tools:layout="@layout/fragment_subreddits" >
+        <action
+            android:id="@+id/action_subredditsFragment_to_postsFragment"
+            app:destination="@id/postsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.reddit.presentation.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_postsFragment"
+            app:destination="@id/postsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.reddit.presentation.UserProfileFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user_profile" >
+        <action
+            android:id="@+id/action_userProfileFragment_to_logoutFragment"
+            app:destination="@id/logoutFragment" />
+        <action
+            android:id="@+id/action_userProfileFragment_to_userFriendsFragment"
+            app:destination="@id/userFriendsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.reddit.presentation.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.reddit.presentation.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" >
+        <action
+            android:id="@+id/action_logoutFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.example.reddit.presentation.PostsFragment"
+        android:label="fragment_posts"
+        tools:layout="@layout/fragment_posts" >
+        <action
+            android:id="@+id/action_postsFragment_to_userInfoFragment"
+            app:destination="@id/userInfoFragment" />
+        <action
+            android:id="@+id/action_postsFragment_to_commentsFragment"
+            app:destination="@id/commentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userInfoFragment"
+        android:name="com.example.reddit.presentation.UserInfoFragment"
+        android:label="fragment_user_info"
+        tools:layout="@layout/fragment_user_info" />
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="com.example.reddit.presentation.CommentsFragment"
+        android:label="fragment_comments"
+        tools:layout="@layout/fragment_comments" />
+    <fragment
+        android:id="@+id/userFriendsFragment"
+        android:name="com.example.reddit.presentation.UserFriendsFragment"
+        android:label="fragment_user_friends"
+        tools:layout="@layout/fragment_user_friends" />
+
+
+</navigation>

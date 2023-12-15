@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reddit</string>
+
+    <string name="auth_canceled">Ошибка проверки подлинности</string>
+    <string name="log_text">Найдите единомышленников с помощью Reddit</string>
+    <string name="corrupt_access_token">Поврежденный токен доступа</string>
+    <string name="subreddits">Subreddits</string>
+    <string name="favorite">Любимый</string>
+    <string name="user">Пользователь</string>
+    <string name="info">информация</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_picture">Картинка приветсвия</string>
+    <string name="welcome_to_humblrrr">Добро пожаловать в Reddit</string>
+    <string name="here_are_communities_of_all_kinds_of_interests">Здесь представлены сообщества с самыми разными интересами</string>
+    <string name="subhumblrrr_picture">Subreddit picture</string>
+    <string name="subhumblrrr">SubReddit</string>
+    <string name="you_can_find_new_subs_by_interests_and_see_the_subs_you_are_subscribed_to">Вы можете находить новых подписчиков по интересам и просматривать подписки, на которые вы подписаны</string>
+    <string name="favorites_tab_stores_bookmarks">На вкладке "Избранное" хранятся закладки с комментариями и подзаголовками. В своем профиле вы найдете информацию о себе.</string>
+    <string name="share_and_save">Поделиться и сохранить</string>
+    <string name="share_and_save_picture">Поделитесь и сохраните изображение</string>
+    <string name="skip">Пропустить</string>
+    <string name="finish">Финиш</string>
+    <string name="something_went_wrong">Что-то пошло не так</string>
+    <string name="new_button">Новое</string>
+    <string name="popular_button">Популярное</string>
+    <string name="vote_up">Голосуйте за</string>
+    <string name="vote_down">Голосуйте против</string>
+    <string name="open_comments">Открыть комментарии</string>
+    <string name="share">Поделиться</string>
+    <string name="unsubscribe">Отписаться</string>
+    <string name="subscribe">Подписаться</string>
+    <string name="subreddits_favorite">Subreddits</string>
+    <string name="comments">Комментарии</string>
+    <string name="posts">Печатать</string>
+    <string name="karma">Карма:</string>
+    <string name="created">Создать:</string>
+    <string name="be_friends">Будьте друзьями</string>
+    <string name="don_t_be_friends">Не будьте друзьями</string>
+    <string name="reddit_s_image">Reddit\'s картинка</string>
+    <string name="subreddit_logo">Subreddit logo</string>
+    <string name="subreddit_background_picture">Subreddit фоновое изображение</string>
+    <string name="subscribe_unsubscribe_the_reddit_button">Подписаться-отменить подписку с помощью кнопки reddit</string>
+    <string name="comments_to_the_post">Комментарии к сообщению:</string>
+    <string name="user_avatar">Аватар пользователя</string>
+    <string name="comments_label">Комментарии:</string>
+    <string name="karma_label">Карма:</string>
+    <string name="vote">"Голосовать "</string>
+</resources>
